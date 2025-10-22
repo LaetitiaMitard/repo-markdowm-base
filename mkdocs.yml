@@ -1,6 +1,5 @@
-site_name: repo-markdown-base
-site_url: "{{ site_url }}"
-edit_uri: edit/master/docs/
+site_name: repo-markdowm-base
+site_url: https://laetitiamitard.github.io/repo-markdowm-base/
 theme:
   name: material
   language: fr
