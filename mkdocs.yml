@@ -1,7 +1,5 @@
-site_name: "{{ site_name }}"
+site_name: repo-markdown-base
 site_url: "{{ site_url }}"
-repo_url: "{{ repo_url }}"
-repo_name: "{{ repo_name }}"
 edit_uri: edit/master/docs/
 theme:
   name: material
@@ -10,7 +8,6 @@ theme:
   favicon: https://static.maif.fr/resources/img/logo-maif.svg
   icon:
     repo: fontawesome/brands/git-alt
-  custom_dir: override_theme
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -25,7 +22,6 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  language: fr
   features:
     - announce
     - content.tabs.link
@@ -96,7 +92,7 @@ nav:
   - Accueil: index.md
   - Niveau 1:
     - Niveau 2 a:
-      - Niveau 3 a: dossier/fichier3a.md
-      - Niveau 3 b : dossier/fichier3b.md
-    - Niveau 2 b: dossier/sous-dossier/fichier2b.md
+      - Niveau 3 a: Niveau 1/Niveau 2/fichier3a.md
+      - Niveau 3 b : Niveau 1/Niveau 2/fichier3b.md
+    - Niveau 2 b: Niveau 1/fichier2b.md
       
